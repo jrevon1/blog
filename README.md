@@ -62,7 +62,7 @@
 
   2. Run the DB migration:
 
-    $ rails db:migrate RAILS_ENV=development
+    $ rails db:migrate
 
   3. Start up the Web Server
 
