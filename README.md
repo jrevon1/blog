@@ -60,9 +60,16 @@
     $ git clone https://github.com/jrevon1/blog.git
       cd blog
 
-  2. Run the DB migration:
+  2. Run the DB migration **(see note)**:
+  
+  **Note:** You may need to run Yarn's updater before performing the database migration. You can do so using the following command:
+    
+    $ yarn install --check-files
+  
+  After doing so, you can run the following command to migrate the database:
 
     $ rails db:migrate
+  
 
   3. Start up the Web Server
 
