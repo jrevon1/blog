@@ -16,8 +16,8 @@
     $ ruby -v
     ruby 2.6.3
 
-  Note: This application was created using ruby 2.6.3.
-  <br>Note: Rails requires Ruby version 2.5.0 or later.
+  **Note:** This application was created using ruby 2.6.3.
+  <br>**Note:** Rails requires Ruby version 2.5.0 or later.
 
   If the version number returned is less than that number, you'll need to install a fresh copy of Ruby. You can find instructions for installing a new copy of ruby at [Rubylang.org](https://www.ruby-lang.org/en/documentation/installation/)
 
@@ -28,7 +28,7 @@
 
     $ sqlite3 --version
 
-  Note: This application was created using version 3.24.0.
+  **Note:** This application was created using version 3.24.0.
   <br>You can find instructions for installing SQLite3 at [SQLite.org](https://www.sqlite.org/index.html)
 
   ## 3. Node.js
@@ -37,8 +37,8 @@
 
     $ node --version
 
-  Note: This application was created using v14.5.0
-  <br>Note: Make sure your version is greater than 8.16.0
+  **Note:** This application was created using v14.5.0
+  <br>**Note:** Make sure your version is greater than 8.16.0
   <br>You can find instructions for installing Node.js at [Nodejs.org](https://nodejs.org/en/download/)
 
   ## 4. Yarn
@@ -69,3 +69,5 @@
   Once the server is running, navigate to [http://localhost:3000/](http://localhost:3000/). You should see the homepage.
 
   Congratulations! You've got a bare-bones blog application that you can style as needed!
+  
+  **Note:** Post titles must be at least 6 characters, and no more than 100 characters. Post descriptions (i.e. the body of the post) must be at least 10 characters, and no more than 300 characters. You can change these parameters in the [blog/app/models/article.rb](https://github.com/jrevon1/blog/blob/master/app/models/article.rb) file.
