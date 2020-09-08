@@ -60,7 +60,11 @@
     $ git clone https://github.com/jrevon1/blog.git
       cd blog
 
-  2. Start up the Web Server
+  2. Run the DB migration:
+
+    $ rails db:migrate RAILS_ENV=development
+
+  3. Start up the Web Server
 
   Note: the easiest way to test this application is to start a server in your terminal locally using Rails:
 
@@ -69,5 +73,5 @@
   Once the server is running, navigate to [http://localhost:3000/](http://localhost:3000/). You should see the homepage.
 
   Congratulations! You've got a bare-bones blog application that you can style as needed!
-  
+
   **Note:** Post titles must be at least 6 characters, and no more than 100 characters. Post descriptions (i.e. the body of the post) must be at least 10 characters, and no more than 300 characters. You can change these parameters in the [blog/app/models/article.rb](https://github.com/jrevon1/blog/blob/master/app/models/article.rb) file.
